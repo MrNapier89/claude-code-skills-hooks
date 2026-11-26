@@ -1,0 +1,6 @@
+:root{--bg:#0B0B12;--panel:#12121C;--line:#24243A;--fg:#fff;--muted:#C9C9D6;--accent:#FFE500;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 Inter,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px max(16px,env(safe-area-inset-left)) 64px}
+h1{font-size:40px;letter-spacing:-1px;margin:0 0 8px}h1 b{color:var(--accent)}h2{margin-top:32px;font-size:20px}
+p,li{color:var(--muted)}a{color:var(--accent)}code{font-family:"JetBrains Mono",monospace;color:var(--accent)}
+nav{display:flex;gap:18px;margin-top:40px;font-size:14px}
